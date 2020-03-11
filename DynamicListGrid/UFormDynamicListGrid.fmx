@@ -1,0 +1,277 @@
+object FormDynamicListGrid: TFormDynamicListGrid
+  Left = 0
+  Top = 0
+  Caption = 'Dynamic List Grid'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object RectangleToolBar: TRectangle
+    Align = Top
+    Fill.Color = claWhite
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ShadowEffect1: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.200000002980232200
+      Opacity = 0.200000002980232200
+      ShadowColor = claBlack
+    end
+    object btnVisualizacao: TButton
+      Align = Right
+      Position.X = 592.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      TabOrder = 0
+      Text = 'btnVisualizacao'
+      OnClick = btnVisualizacaoClick
+    end
+  end
+  object VertScrollBoxDynamic: TVertScrollBox
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ShowScrollBars = False
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 430.000000000000000000
+    object GridLayoutDynamic: TGridLayout
+      ItemHeight = 120.000000000000000000
+      ItemWidth = 120.000000000000000000
+      Orientation = Horizontal
+      Size.Width = 640.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle2: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect2: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle3: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 125.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect3: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle4: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 245.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect4: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle5: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 365.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect5: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle6: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 485.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect6: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle7: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect7: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle8: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 125.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect8: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle9: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 245.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect9: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle10: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 365.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect10: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+      object Rectangle11: TRectangle
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 485.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object ShadowEffect11: TShadowEffect
+          Distance = 2.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.200000002980232200
+          Opacity = 0.200000002980232200
+          ShadowColor = claBlack
+        end
+      end
+    end
+  end
+end
