@@ -1,0 +1,36 @@
+object FormColorMoveAnimation: TFormColorMoveAnimation
+  Left = 0
+  Top = 0
+  Caption = 'Color and Move Animation'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectangleBackground: TRectangle
+    Align = Client
+    Fill.Color = xFFF9F9F9
+    Padding.Top = 20.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object CircleMoved: TCircle
+      Align = Top
+      Position.Y = 20.000000000000000000
+      Size.Width = 640.000000000000000000
+      Size.Height = 165.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = CircleMovedClick
+      object ShadowEffect: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.100000001490116100
+        Opacity = 0.200000002980232200
+        ShadowColor = claBlack
+      end
+    end
+  end
+end

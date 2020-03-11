@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/15 14:19:59.000.240,=C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2019/10/15 19:19:53.000.719,=C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2019/10/15 19:20:27.000.074,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Projetos\delphi_examples\ColorMoveAnimation\UFormColorMoveAnimation.pas</Transaction>
+    <Transaction>2019/10/15 19:20:27.000.074,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit7.fmx=C:\Projetos\delphi_examples\ColorMoveAnimation\UFormColorMoveAnimation.fmx</Transaction>
+    <Transaction>2019/10/15 19:20:36.000.556,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Projetos\delphi_examples\ColorMoveAnimation\ColorMoveAnimation.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<P192.168.0.100 iOSSimulator="iPhone5" iOSDevice64="_iosdevice_d65cc62eed5d7391ff588f3e08c515517b147493" iOSDevice32="_iosdevice_d65cc62eed5d7391ff588f3e08c515517b147493"/>  <NoProfile iOSSimulator="iPhone5" Android64="0045284005" Android="0045284005"/>
+  </ActiveMobileDevice>
+</BorlandProject>
