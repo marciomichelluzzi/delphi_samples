@@ -1,0 +1,73 @@
+object FormBase64Converter: TFormBase64Converter
+  Left = 0
+  Top = 0
+  Caption = 'FormBase64Converter'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MemoBase64: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 393.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 301.000000000000000000
+    Viewport.Height = 389.000000000000000000
+  end
+  object EditFilePath: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 8.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 625.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    OnChange = EditFilePathChange
+  end
+  object ButtonToBase64: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'To Base 64'
+    OnClick = ButtonToBase64Click
+  end
+  object ButtonToImage: TButton
+    Position.X = 408.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'To Image'
+    OnClick = ButtonToImageClick
+  end
+  object ImageSource: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 320.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ButtonClearImage: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Clear'
+    OnClick = ButtonClearImageClick
+  end
+end
