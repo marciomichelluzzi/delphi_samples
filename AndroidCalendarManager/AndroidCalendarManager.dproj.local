@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0045284005"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2020/03/11 15:33:29.000.264,C:\Projetos\delphi_samples\AndroidCalendarManager\demo.dproj=C:\Projetos\delphi_samples\AndroidCalendarManager\AndroidCalendarManager.dproj</Transaction>
+    <Transaction>2020/03/11 15:33:50.000.767,C:\Projetos\delphi_samples\AndroidCalendarManager\Unit8.pas=C:\Projetos\delphi_samples\AndroidCalendarManager\UFormAndroidCalendarManager.pas</Transaction>
+    <Transaction>2020/03/11 15:33:50.000.767,C:\Projetos\delphi_samples\AndroidCalendarManager\Unit8.fmx=C:\Projetos\delphi_samples\AndroidCalendarManager\UFormAndroidCalendarManager.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
