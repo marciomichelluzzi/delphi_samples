@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/31 16:44:25.000.648,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas</Transaction>
+    <Transaction>2019/01/31 16:45:55.000.023,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit54.pas</Transaction>
+    <Transaction>2019/01/31 16:48:15.000.764,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit54.pas=C:\MARCIO\exemplos_delphi\wifi_status_bar\UFrameWifiStatusBar.pas</Transaction>
+    <Transaction>2019/01/31 16:48:15.000.764,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit54.fmx=C:\MARCIO\exemplos_delphi\wifi_status_bar\UFrameWifiStatusBar.fmx</Transaction>
+    <Transaction>2019/01/31 16:53:29.000.434,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.fmx=C:\MARCIO\exemplos_delphi\wifi_status_bar\UFormMain.fmx</Transaction>
+    <Transaction>2019/01/31 16:53:29.000.434,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas=C:\MARCIO\exemplos_delphi\wifi_status_bar\UFormMain.pas</Transaction>
+    <Transaction>2019/01/31 16:53:48.000.624,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project40.dproj=C:\MARCIO\exemplos_delphi\wifi_status_bar\WifiStatusBar.dproj</Transaction>
+    <Transaction>2020/03/11 18:44:06.334,C:\Projetos\delphi_samples\WifiStatusBar\UFormWiFiStatusBar.fmx=C:\Projetos\delphi_samples\WifiStatusBar\UFormMain.fmx</Transaction>
+    <Transaction>2020/03/11 18:44:06.334,C:\Projetos\delphi_samples\WifiStatusBar\UFormWiFiStatusBar.pas=C:\Projetos\delphi_samples\WifiStatusBar\UFormMain.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC_MINI iOSSimulator="iPhone5" iOSDevice64="_iosdevice_95df768c744186ec318e0fb8e8f35ce08a3d2e64" iOSDevice32="_iosdevice_95df768c744186ec318e0fb8e8f35ce08a3d2e64"/>
+		<NoProfile Android="0045284005" iOSSimulator="iPhone5" Android64="0045284005"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,25 @@
+object FrameWifiStatus: TFrameWifiStatus
+  Size.Width = 392.000000000000000000
+  Size.PlatformDefault = False
+  object RectangleFundo: TRectangle
+    Align = Client
+    Fill.Color = claTomato
+    Size.Width = 392.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claTomato
+  end
+  object FloatAnimationFundo: TFloatAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'Height'
+    StartValue = 0.000000000000000000
+    StopValue = 0.000000000000000000
+  end
+  object TextMensagem: TText
+    Align = Client
+    Size.Width = 392.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Sem conex'#227'o com a internet'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end
