@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.347,D:\Projects\sample\BitmapUrl\FMX.Devgear.Extentions.pas=D:\Projects\sample\BitmapUrl\FMX.devgear.Extentions.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.523,=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.704,=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.565,D:\Projects\sample\BitmapUrl\BitmapUrlDemo.dproj=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.068,D:\Projects\sample\BitmapUrl\Unit3.pas=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.038,D:\Projects\sample\BitmapUrl\FMX.devgear.Extentions.pas=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.900,=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.068,D:\Projects\sample\BitmapUrl\Unit3.fmx=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.692,=C:\Users\HumpheryPC\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/03/11 18:04:01.301,C:\Projetos\delphi_samples\BitmapUrl\UFormBitmapFromURL.pas=C:\Projetos\delphi_samples\BitmapUrl\Unit3.pas</Transaction>
+    <Transaction>2020/03/11 18:04:01.301,C:\Projetos\delphi_samples\BitmapUrl\UFormBitmapFromURL.fmx=C:\Projetos\delphi_samples\BitmapUrl\Unit3.fmx</Transaction>
+    <Transaction>2020/03/11 18:12:21.312,C:\Projetos\delphi_samples\BitmapUrl\BitmapFromURL.dproj=C:\Projetos\delphi_samples\BitmapUrl\BitmapUrlDemo.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>015d4906be47f60f</MobileDevice>
+	<ActiveMobileDevice>
+		<P192.168.0.100 iOSSimulator="iPhone5"/>
+		<NoProfile Android="0045284005" iOSSimulator="iPhone5" Android64="0045284005"/>
+	</ActiveMobileDevice>
+</BorlandProject>
