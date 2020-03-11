@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/28 16:05:04.000.078,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit33.pas</Transaction>
+    <Transaction>2018/09/28 16:05:14.000.943,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit34.pas</Transaction>
+    <Transaction>2018/09/28 16:16:33.000.981,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit34.pas=C:\MARCIO\component_workflow\codigo\UFrameEtapa.pas</Transaction>
+    <Transaction>2018/09/28 16:16:33.000.981,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit34.fmx=C:\MARCIO\component_workflow\codigo\UFrameEtapa.fmx</Transaction>
+    <Transaction>2018/09/28 16:34:34.000.928,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit33.fmx=C:\MARCIO\component_workflow\codigo\UFormWorkFlow.fmx</Transaction>
+    <Transaction>2018/09/28 16:34:34.000.928,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit33.pas=C:\MARCIO\component_workflow\codigo\UFormWorkFlow.pas</Transaction>
+    <Transaction>2018/09/28 16:35:02.000.092,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project26.dproj=C:\MARCIO\component_workflow\projeto\ComponenteWorkFlow.dproj</Transaction>
+    <Transaction>2018/09/28 16:39:00.000.348,=C:\MARCIO\component_workflow\projeto\Unit1.pas</Transaction>
+    <Transaction>2018/09/28 16:39:20.000.450,C:\MARCIO\component_workflow\projeto\Unit1.pas=C:\MARCIO\component_workflow\codigo\UFrameWorkFlow.pas</Transaction>
+    <Transaction>2018/09/28 16:39:20.000.450,C:\MARCIO\component_workflow\projeto\Unit1.fmx=C:\MARCIO\component_workflow\codigo\UFrameWorkFlow.fmx</Transaction>
+    <Transaction>2018/09/28 16:46:08.000.454,C:\MARCIO\component_workflow\codigo\UFrameEtapa.fmx=C:\MARCIO\component_workflow\codigo\UFrameEtapaWorkFlow.fmx</Transaction>
+    <Transaction>2018/09/28 16:46:08.000.454,C:\MARCIO\component_workflow\codigo\UFrameEtapa.pas=C:\MARCIO\component_workflow\codigo\UFrameEtapaWorkFlow.pas</Transaction>
+    <Transaction>2018/09/28 16:51:39.000.117,=C:\MARCIO\component_workflow\projeto\Unit1.pas</Transaction>
+    <Transaction>2018/09/28 16:52:52.000.776,C:\MARCIO\component_workflow\projeto\Unit1.pas=C:\MARCIO\component_workflow\codigo\UWorkFlow.pas</Transaction>
+    <Transaction>2018/09/28 16:53:36.000.579,C:\MARCIO\component_workflow\codigo\UWorkFlow.pas=C:\MARCIO\component_workflow\codigo\UEtapaWorkFlow.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC_INSPECT iOSSimulator="iPhone5"/>
+		<NoProfile Android="0045284005" iOSSimulator="iPhone5" Android64="0045284005"/>
+	</ActiveMobileDevice>
+</BorlandProject>

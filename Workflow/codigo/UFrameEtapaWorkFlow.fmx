@@ -1,0 +1,91 @@
+object FrameEtapaWorkFlow: TFrameEtapaWorkFlow
+  Align = Top
+  Size.Width = 320.000000000000000000
+  Size.Height = 100.000000000000000000
+  Size.PlatformDefault = False
+  object GridPanelLayoutEtapaWorkFlow: TGridPanelLayout
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 75.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = CircleStatusEtapaWorkFlow
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = RectangleAnterior
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = RectangleProximo
+        Row = 2
+      end
+      item
+        Column = 1
+        Control = TextNomeEtapaWorkFlow
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 33.585731914917680000
+      end
+      item
+        Value = 33.355886571418770000
+      end
+      item
+        Value = 33.058381513663550000
+      end>
+    object CircleStatusEtapaWorkFlow: TCircle
+      Align = Client
+      Fill.Color = claGray
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.355888366699220000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object RectangleAnterior: TRectangle
+      Align = HorzCenter
+      Fill.Color = claGray
+      Position.X = 35.000000000000000000
+      Size.Width = 10.000000000000000000
+      Size.Height = 33.585731506347660000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object RectangleProximo: TRectangle
+      Align = HorzCenter
+      Fill.Color = claGray
+      Position.X = 35.000000000000000000
+      Position.Y = 66.941619873046880000
+      Size.Width = 10.000000000000000000
+      Size.Height = 33.058380126953130000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object TextNomeEtapaWorkFlow: TText
+      Align = Client
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Size.Width = 224.000000000000000000
+      Size.Height = 17.355888366699220000
+      Size.PlatformDefault = False
+      Text = 'Nome da Etapa'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.HorzAlign = Leading
+    end
+  end
+end
