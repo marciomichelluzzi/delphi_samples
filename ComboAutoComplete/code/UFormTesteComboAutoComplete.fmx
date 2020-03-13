@@ -1,0 +1,74 @@
+object FormAutoComplete: TFormAutoComplete
+  Left = 0
+  Top = 0
+  Caption = 'FormAutoComplete'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object EditComboValues: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 0
+    OnPresentationNameChoosing = EditComboValuesPresentationNameChoosing
+    Position.X = 8.000000000000000000
+    Position.Y = 81.000000000000000000
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Size.Width = 624.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    object ButtonComboBox: TButton
+      Align = Right
+      Cursor = crArrow
+      Margins.Left = 1.000000000000000000
+      Margins.Top = 1.000000000000000000
+      Margins.Right = 1.000000000000000000
+      Margins.Bottom = 1.000000000000000000
+      Position.X = 595.500000000000000000
+      Position.Y = 0.500000000000000000
+      Scale.X = 0.500000000000000000
+      Scale.Y = 0.500000000000000000
+      Size.Width = 56.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowdowntoolbutton'
+      TabOrder = 0
+      Text = 'ButtonComboBox'
+      OnClick = ButtonComboBoxClick
+    end
+  end
+  object ButtonSelectItem: TButton
+    Align = Top
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 119.000000000000000000
+    Size.Width = 624.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Choose Item 3'
+    OnClick = ButtonSelectItemClick
+  end
+  object LabelTitle: TLabel
+    Align = Top
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 624.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Title'
+  end
+end

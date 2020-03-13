@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/12 21:40:04.000.220,=C:\Users\dev_i\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/12 21:40:21.000.081,C:\Projetos\delphi_samples\ComboAutoComplete\code\Unit1.fmx=C:\Users\dev_i\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/03/12 21:40:21.000.081,C:\Projetos\delphi_samples\ComboAutoComplete\code\Unit1.pas=C:\Users\dev_i\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/12 21:40:40.000.062,C:\Projetos\delphi_samples\ComboAutoComplete\project\ComboAutoComplete.dproj=C:\Users\dev_i\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/03/12 21:40:59.000.067,=C:\Projetos\delphi_samples\ComboAutoComplete\code\FMX.Edit.Suggest2.pas</Transaction>
+    <Transaction>2020/03/12 21:40:59.000.181,=C:\Projetos\delphi_samples\ComboAutoComplete\code\UFormTesteComboAutoComplete.pas</Transaction>
+    <Transaction>2020/03/12 21:41:03.000.545,C:\Projetos\delphi_samples\ComboAutoComplete\code\Unit1.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="ce091609c863d43704" Android64="ce091609c863d43704"/>
+	</ActiveMobileDevice>
+</BorlandProject>
