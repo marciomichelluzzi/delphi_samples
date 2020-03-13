@@ -1,0 +1,49 @@
+object FormCut: TFormCut
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'FormCut'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object ImageCut: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    OnMouseDown = ImageCutMouseDown
+    OnMouseMove = ImageCutMouseMove
+    OnMouseUp = ImageCutMouseUp
+    object RectangleAreaSelected: TRectangle
+      Fill.Color = claNull
+      HitTest = False
+      Position.X = 112.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claRed
+      Stroke.Thickness = 3.000000000000000000
+      Visible = False
+    end
+  end
+  object ImageTemp: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    HitTest = False
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+end

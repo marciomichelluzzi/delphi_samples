@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/29 16:01:11.000.535,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit42.pas</Transaction>
+    <Transaction>2018/10/29 16:18:50.000.003,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project32.dproj=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project32.dproj</Transaction>
+    <Transaction>2018/10/29 17:02:26.000.191,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit43.pas</Transaction>
+    <Transaction>2018/10/29 17:02:54.000.006,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit43.fmx=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\UFormCut.fmx</Transaction>
+    <Transaction>2018/10/29 17:02:54.000.006,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit43.pas=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\UFormCut.pas</Transaction>
+    <Transaction>2018/10/29 17:12:26.000.015,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit42.fmx=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\UFormMain.fmx</Transaction>
+    <Transaction>2018/10/29 17:12:26.000.015,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit42.pas=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\UFormMain.pas</Transaction>
+    <Transaction>2018/10/30 10:22:14.000.315,C:\MARCIO\componentes-exemplos_delphi\ImageCut\ImageCut.dproj=C:\MARCIO\componentes-exemplos_delphi\ImageCut\Project32.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC_INSPECT iOSSimulator="iPhone5" iOSDevice32="" iOSDevice64=""/>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

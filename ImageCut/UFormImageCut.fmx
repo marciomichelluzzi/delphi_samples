@@ -1,0 +1,56 @@
+object FormImageCut: TFormImageCut
+  Left = 0
+  Top = 0
+  Caption = 'FormImageCut'
+  ClientHeight = 480
+  ClientWidth = 640
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBarImageCut: TToolBar
+    Anchors = []
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object SpeedButtonOpen: TSpeedButton
+      Align = Right
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toolbutton'
+      Text = 'Open'
+      OnClick = SpeedButtonOpenClick
+    end
+    object SpeedButtonSave: TSpeedButton
+      Align = Right
+      Position.X = 480.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toolbutton'
+      Text = 'Save'
+      OnClick = SpeedButtonSaveClick
+    end
+  end
+  object ImageAreaSelected: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object OpenDialog: TOpenDialog
+    Left = 592
+    Top = 40
+  end
+  object SaveDialog: TSaveDialog
+    Left = 512
+    Top = 40
+  end
+end
