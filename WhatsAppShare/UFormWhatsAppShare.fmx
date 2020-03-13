@@ -1,0 +1,44 @@
+object FormWhatsAppShare: TFormWhatsAppShare
+  Left = 0
+  Top = 0
+  Caption = 'FormWhatsAppShare'
+  ClientHeight = 503
+  ClientWidth = 302
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBarWhatsAppShare: TToolBar
+    Margins.Left = -15.000000000000000000
+    Margins.Right = -15.000000000000000000
+    Position.X = -15.000000000000000000
+    Size.Width = 332.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = claWhite
+    object LabelTitle: TLabel
+      Align = Contents
+      StyledSettings = [Family, Size, Style]
+      HitTest = True
+      Size.Width = 332.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFF057D9C
+      TextSettings.HorzAlign = Center
+      Text = 'My App'
+      TabOrder = 0
+    end
+    object ButtonShare: TSpeedButton
+      Align = Left
+      Margins.Left = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      OnClick = ButtonShareClick
+    end
+  end
+end
