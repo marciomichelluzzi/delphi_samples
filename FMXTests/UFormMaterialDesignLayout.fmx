@@ -1,0 +1,241 @@
+object FormMaterialDesignLayout: TFormMaterialDesignLayout
+  Left = 0
+  Top = 0
+  Caption = 'FormMaterialDesignLayout'
+  ClientHeight = 582
+  ClientWidth = 354
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  object RectangleBody: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 354.000000000000000000
+    Size.Height = 462.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object LayoutToolBar: TLayout
+    Align = Top
+    Size.Width = 354.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RectanglePageController: TRectangle
+      Align = Top
+      Fill.Color = xFF2C2C2C
+      Position.Y = 55.000000000000000000
+      Size.Width = 354.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout: TGridPanelLayout
+        Align = Client
+        Size.Width = 354.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = rctLista
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = rctNovo
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object rctLista: TRectangle
+          Align = Client
+          Fill.Color = xFF2C2C2C
+          Size.Width = 177.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claNull
+          OnClick = rctListaClick
+          OnMouseDown = MouseDown
+          OnMouseLeave = MouseLeave
+          object btnLista: TButton
+            Align = Center
+            HitTest = False
+            IconTintColor = claWhite
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'drawertoolbutton'
+            TabOrder = 0
+            Text = 'btnLista'
+          end
+        end
+        object rctNovo: TRectangle
+          Align = Client
+          Fill.Color = xFF2C2C2C
+          Size.Width = 177.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claNull
+          OnClick = rctNovoClick
+          OnMouseDown = MouseDown
+          OnMouseLeave = MouseLeave
+          object btnAdd: TButton
+            Align = Center
+            HitTest = False
+            IconTintColor = claWhite
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'addtoolbutton'
+            TabOrder = 0
+          end
+        end
+      end
+      object ShadowEffect: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.300000011920929000
+        ShadowColor = claBlack
+      end
+    end
+    object RectangleToolBar: TRectangle
+      Align = Top
+      Fill.Color = xFF2C2C2C
+      Size.Width = 354.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object ButtonBack: TButton
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        IconTintColor = claWhite
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 79.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'backtoolbutton'
+        TabOrder = 0
+        Text = 'Back'
+        TextSettings.FontColor = claWhite
+        OnClick = ButtonBackClick
+      end
+      object LabelTitle: TLabel
+        Align = Left
+        StyledSettings = [Family, Size]
+        Margins.Left = 20.000000000000000000
+        Position.X = 109.000000000000000000
+        Size.Width = 205.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Main Menu'
+      end
+      object ButtonMenu: TButton
+        Align = Right
+        IconTintColor = claWhite
+        Position.X = 306.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'detailstoolbutton'
+        TabOrder = 2
+        Text = 'ButtonMenu'
+      end
+    end
+    object RectangleActiveTab: TRectangle
+      Anchors = [akBottom]
+      Fill.Color = claWhite
+      Position.Y = 116.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 4.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object TabControlTabs: TTabControl
+    Align = Client
+    Size.Width = 354.000000000000000000
+    Size.Height = 462.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      354s
+      413s
+      354s
+      413s)
+    object TabLista: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 176.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'List'
+      ExplicitSize.cx = 177.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Rectangle: TRectangle
+        Align = Center
+        Size.Width = 105.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItemAdd: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 176.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Add'
+      ExplicitSize.cx = 177.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Circle: TCircle
+        Align = Center
+        Size.Width = 137.000000000000000000
+        Size.Height = 153.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object actlst1: TActionList
+    Left = 256
+    Top = 272
+    object ChangeTabAction1: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabLista
+    end
+    object ChangeTabAction2: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItemAdd
+    end
+  end
+end

@@ -1,0 +1,52 @@
+object FormColorAnimation: TFormColorAnimation
+  Left = 0
+  Top = 0
+  Caption = 'FormColorAnimation'
+  ClientHeight = 528
+  ClientWidth = 316
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectangleBackground: TRectangle
+    Align = Client
+    Fill.Color = xFFF9F9F9
+    Padding.Top = 20.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 488.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object CircleShape: TCircle
+      Align = Top
+      Position.Y = 20.000000000000000000
+      Size.Width = 316.000000000000000000
+      Size.Height = 165.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = CircleShapeClick
+      object ShadowEffect1: TShadowEffect
+        Distance = 2.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.100000001490116100
+        Opacity = 0.200000002980232200
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object ToolBarColorAnimation: TToolBar
+    Size.Width = 316.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ButtonBack: TButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      TabOrder = 0
+      Text = 'Back'
+      OnClick = ButtonBackClick
+    end
+  end
+end

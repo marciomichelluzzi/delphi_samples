@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="ce091609c863d43704" Android64="ce091609c863d43704"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2020/03/12 22:07:04.000.222,C:\Projetos\delphi_samples\IntensiveDelphi\Unit6.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesingLayout.pas</Transaction>
+    <Transaction>2020/03/12 22:07:04.000.222,C:\Projetos\delphi_samples\IntensiveDelphi\Unit6.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesingLayout.fmx</Transaction>
+    <Transaction>2020/03/12 22:07:18.000.626,C:\Projetos\delphi_samples\IntensiveDelphi\Unit2.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormColorAnimation.pas</Transaction>
+    <Transaction>2020/03/12 22:07:18.000.626,C:\Projetos\delphi_samples\IntensiveDelphi\Unit2.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormColorAnimation.fmx</Transaction>
+    <Transaction>2020/03/12 22:07:30.000.674,C:\Projetos\delphi_samples\IntensiveDelphi\Unit3.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMenu.pas</Transaction>
+    <Transaction>2020/03/12 22:07:30.000.674,C:\Projetos\delphi_samples\IntensiveDelphi\Unit3.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMenu.fmx</Transaction>
+    <Transaction>2020/03/12 22:07:47.000.199,C:\Projetos\delphi_samples\IntensiveDelphi\Unit4.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormTransparentEdit.fmx</Transaction>
+    <Transaction>2020/03/12 22:07:47.000.199,C:\Projetos\delphi_samples\IntensiveDelphi\Unit4.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormTransparentEdit.pas</Transaction>
+    <Transaction>2020/03/12 22:08:00.000.338,C:\Projetos\delphi_samples\IntensiveDelphi\Unit5.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormDynamicListView.fmx</Transaction>
+    <Transaction>2020/03/12 22:08:00.000.338,C:\Projetos\delphi_samples\IntensiveDelphi\Unit5.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormDynamicListView.pas</Transaction>
+    <Transaction>2020/03/12 22:08:08.000.704,C:\Projetos\delphi_samples\IntensiveDelphi\Unit1.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMain.fmx</Transaction>
+    <Transaction>2020/03/12 22:08:08.000.704,C:\Projetos\delphi_samples\IntensiveDelphi\Unit1.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMain.pas</Transaction>
+    <Transaction>2020/03/12 22:12:53.000.127,C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesingLayout.pas=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesignLayout.pas</Transaction>
+    <Transaction>2020/03/12 22:12:53.000.127,C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesingLayout.fmx=C:\Projetos\delphi_samples\IntensiveDelphi\UFormMaterialDesignLayout.fmx</Transaction>
+    <Transaction>2020/03/12 22:26:02.000.605,C:\Projetos\delphi_samples\IntensiveDelphi\Project7.dproj=C:\Projetos\delphi_samples\IntensiveDelphi\FMXTests.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
