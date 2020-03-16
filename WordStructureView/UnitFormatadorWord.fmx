@@ -1,0 +1,140 @@
+object FormWordStructureView: TFormWordStructureView
+  Left = 0
+  Top = 0
+  Caption = 'FormWordStructureView'
+  ClientHeight = 480
+  ClientWidth = 640
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutWordStructureView: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBarWordStructureView: TToolBar
+      Size.Width = 640.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object SpeedButtonFormatadorWordMenu: TSpeedButton
+        Align = Left
+        Size.Width = 80.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'composetoolbutton'
+        Text = 'SpeedButtonFormatadorWordMenu'
+      end
+      object Label2: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        Size.Width = 640.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'WordStructureView'
+      end
+    end
+    object Label1: TLabel
+      Align = Top
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 624.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Caminho do documento:'
+    end
+    object EditCaminhoDocumento: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 2
+      Position.X = 8.000000000000000000
+      Position.Y = 70.000000000000000000
+      Margins.Left = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Size.Width = 624.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TreeView1: TTreeView
+      Align = Left
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 108.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 364.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      OnChange = TreeView1Change
+      Viewport.Width = 149.000000000000000000
+      Viewport.Height = 360.000000000000000000
+    end
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      TextSettings.WordWrap = True
+      Align = Client
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Size.Width = 463.000000000000000000
+      Size.Height = 364.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Viewport.Width = 459.000000000000000000
+      Viewport.Height = 360.000000000000000000
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 248
+    Top = 80
+  end
+  object MultiViewWordStructureView: TMultiView
+    MasterButton = SpeedButtonFormatadorWordMenu
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+    object ToolBarWordStructureViewMenu: TToolBar
+      Size.Width = 250.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object ListBoxWordStructureViewMenuOpcoes: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 440.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 246.000000000000000000
+      Viewport.Height = 436.000000000000000000
+      object ListBoxItemWordStructureViewAbrirDocumento: TListBoxItem
+        Size.Width = 246.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Abrir Documento'
+        OnClick = ListBoxItemWordStructureViewAbrirDocumentoClick
+      end
+    end
+  end
+end

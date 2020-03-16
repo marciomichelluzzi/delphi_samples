@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/11 15:01:14.000.591,=C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2016/08/11 15:05:01.000.914,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit10.fmx=C:\PROJETOS\formatadorword\UnitFormatadorWord.fmx</Transaction>
+    <Transaction>2016/08/11 15:05:01.000.914,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit10.pas=C:\PROJETOS\formatadorword\UnitFormatadorWord.pas</Transaction>
+    <Transaction>2016/08/11 15:05:18.000.306,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Project3.dproj=C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\FormatadorWord.dproj</Transaction>
+    <Transaction>2016/08/11 15:16:44.000.662,=C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2016/08/11 15:16:54.000.350,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\Unit10.pas=C:\PROJETOS\formatadorword\codigo\zip\UnitZipUtils.pas</Transaction>
+    <Transaction>2016/08/11 15:20:42.000.169,C:\Users\Marcio\Documents\Embarcadero\Studio\Projects\FormatadorWord.dproj=C:\PROJETOS\formatadorword\projeto\FormatadorWord.dproj</Transaction>
+    <Transaction>2016/08/11 15:59:00.000.490,=C:\PROJETOS\formatadorword\codigo\xml\UnitXmlUtils.pas</Transaction>
+    <Transaction>2020/03/16 20:47:38.000.535,C:\Projetos\delphi_samples\WordFormatter\projeto\FormatadorWord.dproj=C:\Projetos\delphi_samples\WordFormatter\projeto\WordStructureView.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
