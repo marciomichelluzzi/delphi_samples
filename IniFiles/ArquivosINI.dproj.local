@@ -3,8 +3,8 @@
 	<Transactions>
     <Transaction>2019/01/30 18:42:07.000.064,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas</Transaction>
     <Transaction>2019/01/31 14:05:35.000.751,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas</Transaction>
-    <Transaction>2019/01/31 14:07:36.000.549,C:\MARCIO\exemplos_delphi\arquivo_ini\UFormMain.dfm=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.dfm</Transaction>
-    <Transaction>2019/01/31 14:07:36.000.549,C:\MARCIO\exemplos_delphi\arquivo_ini\UFormMain.pas=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas</Transaction>
-    <Transaction>2019/01/31 14:34:36.000.196,C:\MARCIO\exemplos_delphi\arquivo_ini\ArquivosINI.dproj=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project40.dproj</Transaction>
+    <Transaction>2019/01/31 14:07:36.000.549,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.dfm=C:\MARCIO\exemplos_delphi\arquivo_ini\UFormMain.dfm</Transaction>
+    <Transaction>2019/01/31 14:07:36.000.549,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit53.pas=C:\MARCIO\exemplos_delphi\arquivo_ini\UFormMain.pas</Transaction>
+    <Transaction>2019/01/31 14:34:36.000.196,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project40.dproj=C:\MARCIO\exemplos_delphi\arquivo_ini\ArquivosINI.dproj</Transaction>
   </Transactions>
 </BorlandProject>

@@ -21,7 +21,7 @@ type
   private
     { Private declarations }
     ArquivoINI: TIniFile;
-    procedure CarregarGridINI(const aIniFileName; const aGrid: TStringGrid);
+    procedure CarregarGridINI(const aGrid: TStringGrid);
   public
   { Public declarations }
 
@@ -38,7 +38,7 @@ implementation
 
 procedure TFormArquivosINI.ButtonCarregarClick(Sender: TObject);
 begin
-  CarregarGridINI('MyIniFile.ini', StringGridINI);
+  CarregarGridINI(StringGridINI);
 end;
 
 procedure TFormArquivosINI.ButtonGravarClick(Sender: TObject);
@@ -50,8 +50,7 @@ begin
   ArquivoINI.WriteString(EditSecao.Text, EditPropriedade.Text, EditValor.Text);
 end;
 
-procedure TFormArquivosINI.CarregarGridINI(const aIniFileName;
-  const aGrid: TStringGrid);
+procedure TFormArquivosINI.CarregarGridINI(const aGrid: TStringGrid);
 var
   Ini: TIniFile;
   I, J: Integer;
