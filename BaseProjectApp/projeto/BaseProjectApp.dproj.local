@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/12 09:47:26.000.585,=C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit44.pas</Transaction>
+    <Transaction>2018/11/12 09:51:20.000.540,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit44.pas=C:\MARCIO\Unit44.pas</Transaction>
+    <Transaction>2018/11/12 09:51:20.000.540,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Unit44.fmx=C:\MARCIO\Unit44.fmx</Transaction>
+    <Transaction>2018/11/12 09:52:25.000.311,C:\Users\inspect1\Documents\Embarcadero\Studio\Projects\Project35.dproj=C:\MARCIO\LauritzenMobile\projeto\LauritzenMobile.dproj</Transaction>
+    <Transaction>2018/11/12 09:55:54.000.780,C:\MARCIO\UFormMain.pas=C:\MARCIO\Unit44.pas</Transaction>
+    <Transaction>2018/11/12 09:55:54.000.780,C:\MARCIO\UFormMain.fmx=C:\MARCIO\Unit44.fmx</Transaction>
+    <Transaction>2018/11/12 09:57:11.000.202,C:\MARCIO\UFormMain.pas=</Transaction>
+    <Transaction>2018/11/12 09:57:41.000.234,=C:\MARCIO\LauritzenMobile\codigo\telas\UFormMain.pas</Transaction>
+    <Transaction>2018/11/12 09:59:15.000.271,=C:\MARCIO\LauritzenMobile\codigo\telas\UFormSplash.pas</Transaction>
+    <Transaction>2018/11/12 10:02:18.000.114,=C:\MARCIO\LauritzenMobile\projeto\Unit1.pas</Transaction>
+    <Transaction>2018/11/12 10:03:05.000.727,C:\MARCIO\LauritzenMobile\codigo\sincronizacao\UThreadSincronizacao.pas=C:\MARCIO\LauritzenMobile\projeto\Unit1.pas</Transaction>
+    <Transaction>2018/11/12 11:26:37.000.232,=C:\MARCIO\LauritzenMobile\codigo\wait\UFrameWait.pas</Transaction>
+    <Transaction>2020/03/16 21:41:57.028,C:\Projetos\delphi_samples\BaseProjectApp\projeto\BaseProjectApp.dproj=C:\Projetos\delphi_samples\BaseProjectApp\projeto\LauritzenMobile.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC_INSPECT iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5" Android="0045284005" Android64="0045284005"/>
+	</ActiveMobileDevice>
+</BorlandProject>
