@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+  <Transactions>
+    <Transaction>2020/03/16 21:23:27.784,C:\Projetos\delphi_samples\ProgressCircle\ProgressCircle.dproj=C:\Projetos\delphi_samples\ProgressCircle\TestProgressCircle.dproj</Transaction>
+    <Transaction>2020/03/16 21:23:44.012,C:\Projetos\delphi_samples\ProgressCircle\UFormProgressiveCircle.fmx=C:\Projetos\delphi_samples\ProgressCircle\Main.fmx</Transaction>
+    <Transaction>2020/03/16 21:23:44.012,C:\Projetos\delphi_samples\ProgressCircle\UFormProgressiveCircle.pas=C:\Projetos\delphi_samples\ProgressCircle\Main.pas</Transaction>
+  </Transactions>
+</BorlandProject>

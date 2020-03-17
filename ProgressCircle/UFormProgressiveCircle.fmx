@@ -1,0 +1,83 @@
+object FormPregressiveCircle: TFormPregressiveCircle
+  Left = 0
+  Top = 0
+  Caption = 'FormPregressiveCircle'
+  ClientHeight = 460
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 2
+  object TrackBar1: TTrackBar
+    CanParentFocus = True
+    Orientation = Horizontal
+    Position.X = 15.000000000000000000
+    Position.Y = 410.000000000000000000
+    Size.Width = 291.000000000000000000
+    Size.Height = 36.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnChange = TrackBar1Change
+    object FloatAnimation1: TFloatAnimation
+      AutoReverse = True
+      Duration = 1.000000000000000000
+      Loop = True
+      PropertyName = 'Value'
+      StartValue = 0.000000000000000000
+      StopValue = 100.000000000000000000
+    end
+  end
+  object CircleProgressiveCircle: TCircle
+    Align = Center
+    Size.Width = 100.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFBFBFBF
+    object CircleInternal: TCircle
+      Align = Client
+      Fill.Color = xFFBFBFBF
+      Margins.Left = 16.000000000000000000
+      Margins.Top = 16.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Margins.Bottom = 16.000000000000000000
+      Size.Width = 68.000000000000000000
+      Size.Height = 68.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFBFBFBF
+    end
+    object ArcProgressive: TArc
+      Align = Client
+      Margins.Left = 1.000000000000000000
+      Margins.Top = 1.000000000000000000
+      Margins.Right = 1.000000000000000000
+      Margins.Bottom = 1.000000000000000000
+      Size.Width = 98.000000000000000000
+      Size.Height = 98.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Stroke.Thickness = 15.000000000000000000
+      Stroke.Cap = Round
+      StartAngle = -90.000000000000000000
+      EndAngle = -90.000000000000000000
+    end
+    object TextValue: TText
+      Align = Client
+      Size.Width = 100.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      Text = '0%'
+      TextSettings.Font.Size = 20.000000000000000000
+    end
+  end
+  object ButtonStart: TButton
+    Position.X = 105.000000000000000000
+    Position.Y = 45.000000000000000000
+    Size.Width = 111.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Start'
+    OnClick = ButtonStartClick
+  end
+end
